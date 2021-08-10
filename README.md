@@ -12,7 +12,7 @@ npm i @quartz-vision/vue-events-helper
 `VueEventsHelper` takes one argument - name of the directive
 ```js
 import Vue from "vue"
-import VueEventsHelper from "vue-events-helper"
+import VueEventsHelper from "@quartz-vision/vue-events-helper"
 
 const myEvents = new VueEventsHelper("my");
 
