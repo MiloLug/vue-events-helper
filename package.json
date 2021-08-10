@@ -1,0 +1,32 @@
+{
+  "name": "vue-events-helper",
+  "version": "1.0.0",
+  "description": "Vue plugin that helps with custom events creation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiloLug/vue-events-helper.git"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "events",
+    "plugin",
+    "quartz"
+  ],
+  "author": "Lia Va",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MiloLug/vue-events-helper/issues"
+  },
+  "homepage": "https://github.com/MiloLug/vue-events-helper#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0"
+  }
+}
