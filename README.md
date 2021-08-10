@@ -5,7 +5,7 @@ Vue plugin that helps with custom events creation.
 
 ## Install
 ```console
-npm install vue-events-helper
+npm i @quartz-vision/vue-events-helper
 ```
 
 ## Setup
