@@ -34,7 +34,7 @@ class VueEventsHelper {
     install(app) {
         app.directive(this.directiveName, VueEventsHelper.defaultActions.reduce(
             (acc, action) => (
-                acc[action] = (el, bindings) => this.callStateHandler(action, el, binding),
+                acc[action] = (el, binding) => this.callStateHandler(action, el, binding),
                 acc
             ),
             {}
