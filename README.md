@@ -3,13 +3,13 @@
 
 Vue plugin that helps with custom events creation.
 
-## Install
+## Installation
 ```console
 npm i @quartz-vision/vue-events-helper
 ```
 
 ## Setup
-
+`VueEventsHelper` takes one argument - name of the directive
 ```js
 import Vue from "vue"
 import VueEventsHelper from "vue-events-helper"
