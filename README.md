@@ -81,6 +81,6 @@ An object containing the following properties.
 {
   modifiers: {a: true, b: true},  // for example v-my:interaction.a.b="...",
   handler: function,  // The handler passed to the event directive
-  oldHandler: function  // The previos handler, only for beforeUpdate hook
+  oldHandler: function  // The previous handler, only for beforeUpdate hook
 }
 ```
